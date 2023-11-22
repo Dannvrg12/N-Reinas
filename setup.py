@@ -7,5 +7,5 @@ setup(name='N Reinas',
       author='Daniel Vargas',
       author_email='va401684@uaeh.edu.mx',
       license='MIT',
-      packages=['minimal'],
+      packages=['N-Reinas'],
       zip_safe=False)

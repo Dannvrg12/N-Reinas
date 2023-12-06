@@ -1,11 +1,8 @@
-def my_sum(x, y):
-    """A function that sums. """
-    return x+y
+def es_seguro(tablero, fila, columna):
+    for i in range(fila):
+        if tablero[i] == columna or \
+           tablero[i] - i == columna - fila or \
+           tablero[i] + i == columna + fila:
+            return False
+    return True
 
-
-def my_mul(x, y):
-    """A function that multiply. """
-    return x*y
-
-def cuadrado(n):
-    return n**2

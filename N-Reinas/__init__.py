@@ -12,7 +12,7 @@ def es_seguro(tablero, fila, columna):
 
 def resolver_n_reinas_util(tablero, fila, n):
     if fila == n:
-        return [list(row) for row in tablero]
+        return [list(tablero)]  
     
     soluciones = []
     for columna in range(n):

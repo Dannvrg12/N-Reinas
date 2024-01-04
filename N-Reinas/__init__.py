@@ -34,7 +34,7 @@ def resolver_n_reinas_util(tablero, fila, n):
 
 #(soluciones.extend(...)): Las soluciones encontradas en la llamada recursiva se extienden a la lista de soluciones actual. Esto se hace para acumular todas las soluciones válidas.
 
-#Retorno de Soluciones (return soluciones) Finalmente, la función retorna la lista de soluciones encontradas.  
+#Retorno de Soluciones (return soluciones) Finalmente, la función retorna la lista de soluciones encontradas. 
 
 def resolver_n_reinas(n):
     tablero = [-1] * n

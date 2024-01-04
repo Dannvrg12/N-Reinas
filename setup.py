@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='N_Reinas',
+setup(name='N Reinas',
       version='0.1',
       description='A Python package for something',
       url='https://github.com/Dannvrg12/N_Reinas',
